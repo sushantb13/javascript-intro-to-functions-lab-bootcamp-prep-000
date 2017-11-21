@@ -18,6 +18,5 @@ function whisper(string){
 }
 
 function logShout(String){
-  var case = string.toUpperCase
-console.log  (case)
+console.log(string.toUpperCase())
 }
