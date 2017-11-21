@@ -27,10 +27,13 @@ function logWhisper(string){
 
 function sayHiToGrandma(string){
 var test = string.toLowerCase()
+var case = string.toUpperCase()
+var love = "I love you, Grandma."
 var message = "I can't hear you!"
 if (string === test){
   return message
-} else {
+} else if (string === case){
    return "YES INDEED!"
 }
 }
+
