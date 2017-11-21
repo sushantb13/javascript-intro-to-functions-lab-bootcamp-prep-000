@@ -30,5 +30,8 @@ var test = string.toLowerCase()
 var message = "I can't hear you!"
 if (string === test){
   return message
+} else {
+   return "YES INDEED!"
 }
 }
+
